@@ -52,7 +52,7 @@
     }
 }
 
-    /* celular 576px */
+    /* celular G- 576px */
     @media (max-width: 576px) {
         .logo {
             width: 42px;
@@ -186,4 +186,21 @@
             width: 160px;
 
         }
+
+        /* celular M- 375px */
+    @media (max-width: 375px) {
+        .pricing-container h2 {
+            padding-top: 11rem;
+            font-size: 22px;
+        }
+
+        .pricing-container {
+            padding-bottom: 42rem;
+        }
+
+        .contact-container #yourname, .contact-container #email {
+            width: 125px;
+        }
+
+    }
     }

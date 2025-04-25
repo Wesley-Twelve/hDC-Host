@@ -16,10 +16,16 @@ p {
 }
 
 /* Navbar */
+html {
+    scroll-behavior: smooth;
+  }
+
 .navbar-container {
+    
     height: 80px;
     background-color: #232a31;
     padding: 0 2rem;
+
 }
 
 nav {
@@ -303,7 +309,7 @@ nav {
 
 .contact-container input,
 .contact-container textarea {
-    width: 200px;
+    width: 232px;
     padding: 10px 20px;
     border-radius: 5px;
     border: solid 1px #333;
